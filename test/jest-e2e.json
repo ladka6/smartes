@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "smartex/lib/(.*)": "<rootDir>/../libs/lib/src/$1",
+    "smartex/lib": "<rootDir>/../libs/lib/src",
+    "@smartex/schema/(.*)": "<rootDir>/../libs/schema/src/$1",
+    "@smartex/schema": "<rootDir>/../libs/schema/src"
+  }
+}
